@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="serviceFinderApp-main">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$" />
+      <root url="file://$PROJECT_DIR$/node_modules/expo-location/android/src/main/java" />
+      <root url="file://$PROJECT_DIR$/node_modules/expo-modules-core/android/src/main/java" />
+      <root url="file://$PROJECT_DIR$/node_modules/react-native-gradle-plugin/src/main/java" />
+      <root url="file://$PROJECT_DIR$/node_modules/react-native-maps/lib/android/src/main/java" />
+      <root url="file://$PROJECT_DIR$/node_modules/react-native-safe-area-context/android/src/paper/java" />
+      <root url="file://$PROJECT_DIR$/node_modules/react-native/ReactAndroid/src/androidTest/java" />
+      <root url="file://$PROJECT_DIR$/node_modules/react-native/ReactAndroid/src/main/java" />
+      <root url="file://$PROJECT_DIR$/node_modules/react-native/ReactAndroid/src/test/java" />
+      <root url="file://$PROJECT_DIR$/node_modules/react-native/template/android/app/src/debug/java" />
+      <root url="file://$PROJECT_DIR$/node_modules/react-native/template/android/app/src/main/java" />
+    </SOURCES>
+  </library>
+</component>
