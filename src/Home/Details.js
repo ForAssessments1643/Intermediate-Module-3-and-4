@@ -7,7 +7,7 @@ import Loader from '../Loader';
 import Carousel from 'react-native-snap-carousel';
 import { MaterialIcons } from '@expo/vector-icons';
 import MainPage from './src/SlideDashboard/Mainpage.js'
-import SlideDrawer from './src/SlideDashboard/SlideDashboard.js'
+import SlideDashboard from './src/SlideDashboard/SlideDashboard.js'
 import Backdrop from './src/SlideDashboard/Backdrop.js'
 
  class App extends React.Component {
@@ -24,7 +24,7 @@ import Backdrop from './src/SlideDashboard/Backdrop.js'
          backdrop = <Backdrop close={this.backdropClickHandler}/>;
         }      return(
           <div>
-            < SlideDrawer show={this.state.drawerOpen} />
+            < SlideDashboard show={this.state.drawerOpen} />
             { backdrop }
             < MainPage toggle={this.drawerToggleClickHandler} />
           </div>      )
